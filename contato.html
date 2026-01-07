@@ -8,47 +8,36 @@
     <meta name="author" content="Generation Brasil">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg" />
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Contato</title>
 </head>
 
 <body>
 
-    <!-- Cabeçalho da Página (header) -->
     <header>
-
-        <!-- Título do cabeçalho -->
         <h1>Generation Brasil</h1>
-
-        <!-- Menu de Navegação -->
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
-
     </header>
 
-    <!-- Seção Principal da Página (main) -->
-    <main>
+    <main class="main_contato">
 
-        
-    <!-- Seção Principal da Página (main) -->
-    <main>
-
-        <!-- Seção do Formulário -->
-        <form action="#" method="submit" id="formulario">
+        <form action="#" method="POST" id="formulario">
 
             <label for="nome">Nome:</label>
-            <input id="name" type="text" name="name" placeholder="Digite seu nome" />
-            <span id="'errNome"></span>
+            <input id="nome" type="text" name="nome" placeholder="Digite seu nome" />
+            <span id="errNome"></span>
 
             <label for="email">Email: </label>
-            <input id="'email" type="text" name="name" placeholder="Digite seu email" />
-            <span id="errSubject"></span>
+            <input id="email" type="email" name="email" placeholder="Digite seu email" />
+            <span id="errEmail"></span>
 
             <label for="subject">Assunto: </label>
-            <input id="subject" type="'text" name="subject" placeholder="Digite o assunto da mensagem" />
+            <input id="subject" type="text" name="subject" placeholder="Digite o assunto da mensagem" />
             <span id="errSubject"></span>
 
             <label for="message">Mensagem: </label>
@@ -58,57 +47,34 @@
 
         </form>
 
-        <!-- Seção do Google Maps -->
-<article>
-	
-     <address>
-         <p>Av. Paulista, 100</p>
-		<p>São Paulo - SP</p>
-     </address>
+        <article>
+            <address>
+                <p>Av. Independência, 831</p>
+                <p>Porto Alegre - RS</p>
+                <p>CEP: 90035-070</p>
+            </address>
 
-	<iframe 
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.2532904997756!2d-51.2128353!3d-30.02959039999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951979ae67d22783%3A0x5a4d488023fb4066!2sAv.%20Independ%C3%AAncia%2C%20831%20-%20Independ%C3%AAncia%2C%20Porto%20Alegre%20-%20RS%2C%2090035-076!5e0!3m2!1spt-BR!2sbr!4v1767629857398!5m2!1spt-BR!2sbr" 
-    width="600" 
-    height="450" 
-    style="border:0;" 
-    allowfullscreen="" 
-    loading="lazy" 
-    referrerpolicy="no-referrer-when-downgrade"
-    ></iframe>
-
-</article>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.240361327178!2d-51.21855132444654!3d-30.030022174932007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519790605963955%3A0x600989f666f466b!2sAv.%20Independ%C3%AAncia%2C%20831%20-%20Independ%C3%AAncia%2C%20Porto%20Alegre%20-%20RS%2C%2090035-070!5e0!3m2!1spt-BR!2sbr!4v1700000000000" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </article>
 
     </main>
 
-
-    </main>
-
-    <!-- Rodapé da Página (footer) -->
     <footer>
-
-        <!-- Seção de Contato - Redes Sociais-->
         <section>
-
-            <a href="">
-                <img src="assets/img/linkedin.svg" alt="LinkedIn" />
-            </a>
-
-            <a href="">
-                <img src="assets/img/github.svg" alt="Github" />
-            </a>
-
-            <a href="">
-                <img src="assets/img/instagram.svg" alt="Instagram" />
-            </a>
-
+            <a href=""><img src="assets/img/linkedin.svg" alt="LinkedIn" /></a>
+            <a href=""><img src="assets/img/github.svg" alt="Github" /></a>
+            <a href=""><img src="assets/img/instagram.svg" alt="Instagram" /></a>
         </section>
-
-		<h3>
-			Feito com 🧡 por Generation Brasil - 2025
-		</h3>
-
+        <h3>Feito com 🧡 por Generation Brasil - 2025</h3>
     </footer>
 
 </body>
-
 </html>
